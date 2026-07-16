@@ -1,0 +1,42 @@
+/* --- ESTILO PROFESIONAL PARA BOTONES --- */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.load-more-btn, .load-less-btn {
+
+    appearance: none;
+    border: 1px solid var(--accent-color);
+    padding: 12px 25px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 4px; 
+    transition: all 0.3s ease;
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+.load-less-btn {
+    background-color: #ffffff;
+    color: var(--accent-color);
+}
+
+.load-more-btn:hover {
+    background-color: transparent;
+    color: var(--accent-color);
+}
+
+.load-less-btn:hover {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+.load-more-btn:focus, .load-less-btn:focus {
+    outline: none;
+}

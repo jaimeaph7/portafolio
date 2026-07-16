@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaime Peña | Desarrollador Creativo y Animador 3D</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="botones-vermas.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- HEADER / NAVIGATION -->
+        <header>
+            <div class="nav-wrapper">
+                <a href="#" class="logo">JAIME PEÑA<span>.</span></a>
+                <nav>
+                    <a href="#sobre-mi">Sobre Mí</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#experiencia">Experiencia</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- HERO SECTION -->
+        <section id="sobre-mi" class="hero">
+            <img src="assets/jaime-hero.png" alt="Jaime Peña" class="hero-image">
+            <div class="hero-text">
+                <h1>Generalista 3D y Animador <span class="arrow">➔</span> Desarrollador Creativo</h1>
+                <div class="subtitle">Blender · Three.js · WebGL · JavaScript</div>
+                <p>
+                    Ayudo a las empresas a dar vida a sus conceptos mediante experiencias interactivas y desarrollo web
+                    full-stack de alto impacto visual. Combino la lógica del código con mi experiencia en diseño 3D para
+                    crear experiencias web interactivas que captan la atención del cliente desde el primer momento. </p>
+            </div>
+        </section>
+
+        <!-- PROYECTO DESTACADO -->
+        <section id="proyectos" class="featured-project">
+            <h2 class="section-title">Proyecto Destacado</h2>
+            <div class="featured-card">
+                <div class="featured-tags">Three.js / Blender / UI/UX / Integración de IA</div>
+                <div class="featured-video">
+                    <video width="420" height="240" autoplay muted loop playsinline controls>
+                        <source src="assets/car-parking-game.mp4" type="video/mp4">
+                        Tu navegador no soporta la etiqueta de video.
+                    </video>
+                </div>
+                <br>
+                <h3>Concepto de Videojuego Web para Revelo</h3>
+                <p class="featured-desc">
+                    Diseñado para mejorar la generación de páginas web en Three.js mediante inteligencia artificial. El
+                    objetivo fue optimizar el diseño original creado por la IA, mejorando sustancialmente la experiencia
+                    de usuario y la funcionalidad en un tiempo límite de menos de 3 horas.
+                </p>
+                <div class="tools-container">
+                    <span class="tool-badge">Blender</span>
+                    <span class="tool-badge">CapCut</span>
+                    <span class="tool-badge">Figma</span>
+                    <span class="tool-badge">Gemini</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTAFOLIO 3D -->
+         <br>
+         <br>
+        <section id="artstation-portfolio" class="artstation-section">
+            <h2 class="section-title">Portafolio 3D</h2>
+            <div id="artstation-grid" class="artstation-grid"></div>
+            <div class="btn-container">
+                <button id="load-more-btn" class="load-more-btn">Cargar Más Proyectos</button>
+                <button id="load-less-btn" class="load-less-btn" style="display: none;">Cargar Menos Proyectos</button>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- TRAYECTORIA PROFESIONAL -->
+        <section id="experiencia" class="experience">
+            <h2 class="section-title">Trayectoria Profesional</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Mayo 2026 - Presente</div>
+                    <div class="timeline-content">
+                        <h3>Generalista 3D y Animador</h3>
+                        <div class="timeline-company">Zack D. Films (Contrato | Remoto)</div>
+                        <ul class="timeline-bullets">
+                            <li>Producido animaciones 3D de alto impacto para uno de los canales de YouTube más vistos del mundo.</li>
+                            <li>Entregado revisiones bajo plazos estrictos de 24-48 horas.</li>
+                            <li>Gestionado el ciclo completo de la línea de producción de animación en Blender.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Sep 2023 - May 2026</div>
+                    <div class="timeline-content">
+                        <h3>Diseñador 3D</h3>
+                        <div class="timeline-company">Freelance (Remoto)</div>
+                        <ul class="timeline-bullets">
+                            <li>Diseñado animáticas y guiones gráficos (storyboards) para guiar la producción comercial y en redes sociales.</li>
+                            <li>Previsualizado productos y mercancía.</li>
+                            <li>Creado presentaciones de ventas (pitch decks) integrales para solicitudes de subvenciones canadienses.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Oct 2024 - Ene 2026</div>
+                    <div class="timeline-content">
+                        <h3>Modelador 3D</h3>
+                        <div class="timeline-company">NOCROMA art + animation (Contrato | Remoto)</div>
+                        <ul class="timeline-bullets">
+                            <li>Creado modelos 3D de entornos y objetos (props) utilizando Blender.</li>
+                            <li>Implementado técnicas de greyboxing para definir estructuras de escenas.</li>
+                            <li>Optimizado modelos y texturas para garantizar calidad y eficiencia de renderizado.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Nov 2024 - Mar 2025</div>
+                    <div class="timeline-content">
+                        <h3>Fotógrafo Inmobiliario</h3>
+                        <div class="timeline-company">Airbnb (Freelance)</div>
+                        <ul class="timeline-bullets">
+                            <li>Fotografía arquitectónica profesional optimizada para propiedades turísticas de alta gama.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Jul 2023 - Sep 2023</div>
+                    <div class="timeline-content">
+                        <h3>Asistente de Producción Bilingüe</h3>
+                        <div class="timeline-company">Screen Colombia (Freelance | Presencial)</div>
+                        <ul class="timeline-bullets">
+                            <li>Asistente bilingüe en set de filmación gestionando logística de equipamiento y comunicación del equipo.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- EDUCACIÓN & CERTIFICACIONES -->
+        <section class="education">
+            <h2 class="section-title">Educación y Credenciales</h2>
+            <div class="education-section">
+                <div class="edu-column">
+                    <h3>Educación</h3>
+                    <div class="edu-item">
+                        <div class="edu-title">Radiodifusión - Radio, TV, Cine y Medios Digitales</div>
+                        <div class="edu-meta">Centennial College (Canadá) | 2019 - 2022</div>
+                    </div>
+                    <div class="edu-item">
+                        <div class="edu-title">Desarrollador Web Full Stack</div>
+                        <div class="edu-meta">Generation Colombia | May 2026 - Ago 2026</div>
+                    </div>
+                    <div class="edu-item">
+                        <div class="edu-title">Conector Unreal, Narrativa</div>
+                        <div class="edu-meta">UT-HUB | Oct 2024 - Dic 2024</div>
+                    </div>
+                </div>
+                <div class="edu-column">
+                    <h3>Certificaciones</h3>
+                    <div class="edu-item">
+                        <div class="edu-title">Certificado de Inglés EF SET 74/100 (C2 Proficiente)</div>
+                        <div class="edu-meta">EF SET | 2026</div>
+                    </div>
+                    <div class="edu-item">
+                        <div class="edu-title">Curso Introducción a la Impresión 3D</div>
+                        <div class="edu-meta">Universidad del Rosario | 2025</div>
+                    </div>
+                    <div class="edu-item">
+                        <div class="edu-title">Blender 3.0: MasterClass de Animación de Productos</div>
+                        <div class="edu-meta">Udemy | 2023</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- SKILLS GRID -->
+        <section class="skills-section">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">Three.js</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Blender</span>
+                <span class="skill-tag">Unreal Engine</span>
+                <span class="skill-tag">Renderizado 3D</span>
+                <span class="skill-tag">Modelado 3D</span>
+                <span class="skill-tag">Edición de Video</span>
+                <span class="skill-tag">DaVinci Resolve</span>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- RECOMENDACIONES -->
+        <section id="recomendaciones" class="recommendations">
+            <h2 class="section-title">Recomendaciones</h2>
+            <div class="recommendation-card">
+                <p>"Desde pasante a contratista, Jaime trabajó para mí en un complejo proyecto de software basado en RA
+                    durante 4 años en diversas capacidades: investigador, coordinador, diseñador, editor (Premiere), artista
+                    2D (storyboards y animáticas) y artista digital 3D (Blender, presentaciones interactivas). Su producción
+                    no solo es excepcional, sino que posee un conjunto de herramientas impresionante y en constante
+                    expansión... Una verdadera navaja suiza con talento genuino. No puedo recomendarlo lo suficiente."
+                </p>
+                <br>
+                <div class="recommendation-author">
+                    <strong>John Dolin</strong><br>
+                    <span>Escritor / Director / Productor / Fundador de software</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <div class="container">
+            <section id="contacto" class="contact-section">
+                <h2 class="section-title">Contacto</h2>
+                <div class="card card-personal">
+                    <div class="row g-0 align-items-center p-4">
+                        <div class="col-md-4 text-center">
+                            <img src="assets/jaime-hero.png" alt="Jaime Peña" class="foto-perfil">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-start">
+                                <h2 class="titulo">Jaime Peña</h2>
+                                <h5 class="text-secondary">Generalista 3D</h5>
+                                <p class="card-text mt-3">
+                                    Generalista 3D especializado en animación en Blender. Apasionado por la creación de historias cinematográficas, impresión 3D y contenido educativo.
+                                </p>
+                                <p><i class="bi bi-envelope-fill"></i> jaimeaph7@gmail.com</p>
+                                <p><i class="bi bi-whatsapp"></i> <a href="https://wa.me/573223240106" target="_blank" class="text-decoration-none">+57 322 324 0106</a></p>
+                                <a href="https://www.behance.net/jaimepena4" target="_blank" class="btn btn-primary btn-custom">Portafolio</a>
+                                <a href="https://www.linkedin.com/in/jaime-pena" target="_blank" class="btn btn-outline-primary btn-custom">LinkedIn</a>
+                                <a href="https://github.com/jaimeaph7" target="_blank" class="btn btn-dark btn-custom">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>&copy; 2026 Jaime Peña</p>
+        </footer>
+
+        <script src="app.js"></script>
+    </div>
+</body>
+
+</html>
