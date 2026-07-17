@@ -522,4 +522,14 @@ footer {
         grid-template-columns: 1fr;
         gap: 5px;
     }
+
+.card-info small {
+    display: block;
+    font-size: 0.8rem;
+    color: #ffcc00; /* Puedes cambiar este color para que combine con tu web */
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
 }

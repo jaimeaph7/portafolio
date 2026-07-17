@@ -40,3 +40,65 @@
 .load-more-btn:focus, .load-less-btn:focus {
     outline: none;
 }
+
+/* Asegúrate de que no falte ninguna llave antes de este bloque */
+
+.favorites-section { 
+    padding: 4rem 2rem; 
+}
+
+.favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.fav-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    display: block;
+    text-decoration: none; /* Quita el subrayado del link */
+}
+
+.fav-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.fav-card:hover {
+    transform: scale(1.05);
+}
+
+.card-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.fav-card:hover .card-info { 
+    opacity: 1; 
+}
+
+.card-info h3 { margin: 0 0 5px 0; font-size: 1.2rem; }
+.card-info p { margin: 0; font-size: 0.9rem; line-height: 1.4; opacity: 0.9; }
+
+.card-info small {
+    display: block;
+    font-size: 0.8rem;
+    color: #ffcc00;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
